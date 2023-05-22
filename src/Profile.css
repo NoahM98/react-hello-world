@@ -1,0 +1,51 @@
+.profile>h1 {
+    text-align: center;
+}
+
+#profile-card {
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 70%;
+}
+
+#profile-picture {
+    width: 40%;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+#profile-segment {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 120%;
+    /* margin-left: 40px; */
+
+}
+
+#label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+#label-value {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+#label>p,
+#label-value>p {
+    margin-top: 10px;
+}
+
+@media (max-width: 1450px) {
+    #profile-segment {
+        font-size: 80%;
+    }
+}
