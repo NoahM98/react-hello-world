@@ -29,7 +29,7 @@ const TodoList = (props) => {
             {
                 todoList.map((item, index) => {
                     return (
-                        <h3 key={item + 1}>{`${index + 1}: ${item}`}</h3>
+                        <h3 key={item + index}>{`${index + 1}: ${item}`}</h3>
                     )
                 })
             }
